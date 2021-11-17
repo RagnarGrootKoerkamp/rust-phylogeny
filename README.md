@@ -8,7 +8,7 @@
 Currently this library provides three algorithms:
 
 - [UPGMA](https://en.wikipedia.org/wiki/UPGMA) and
-  [Nieghbor-Joining](https://en.wikipedia.org/wiki/Neighbor_joining) for
+  [Neighbor-Joining](https://en.wikipedia.org/wiki/Neighbor_joining) for
   constructing a phylogeny from a distance matrix.
 - [Robinson-Foulds
   metric](https://en.wikipedia.org/wiki/Robinson%E2%80%93Foulds_metric) for
