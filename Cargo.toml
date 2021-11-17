@@ -1,0 +1,30 @@
+[package]
+name = "phylogeny"
+version = "0.0.1"
+authors = ["Ragnar Groot Koerkamp <ragnar.grootkoerkamp@gmail.com>"]
+description = "A library and corresponding binaries for algorithms related to phylogenies."
+homepage = "https://github.com/RagnarGrootKoerkamp/rust-phylogeny"
+repository = "https://github.com/RagnarGrootKoerkamp/rust-phylogeny"
+documentation = "https://docs.rs/phylogeny"
+readme = "README.md"
+license = "MIT"
+edition = "2018"
+include = ["src/*", "LICENSE.mc", "README.md"]
+
+[lib]
+name = "phylogeny"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rpt"
+path = "src/main.rs"
+
+
+[dependencies]
+num = "*"
+ordered-float = '*'
+itertools = "*"
+clap = { version = "*", features = ["yaml", "color", "suggestions"]}
+structopt = "*"
+strum = "*"
+strum_macros = "*"
