@@ -3,7 +3,7 @@
 [![Crates.io](https://img.shields.io/crates/d/phylogeny.svg)](https://crates.io/crates/phylogeny)
 [![Crates.io](https://img.shields.io/crates/v/phylogeny.svg)](https://crates.io/crates/phylogeny)
 [![Crates.io](https://img.shields.io/crates/l/phylogeny.svg)](https://crates.io/crates/phylogeny)
-[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/rust-phylogeny/rust-phylogeny/CI/master?label=tests)](https://github.com/ragnargrootkoerkamp/rust-phylogeny/actions)
+[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/RagnarGrootKoerkamp/rust-phylogeny/CI/master?label=tests)](https://github.com/ragnargrootkoerkamp/rust-phylogeny/actions)
 
 Currently this library provides three algorithms:
 
