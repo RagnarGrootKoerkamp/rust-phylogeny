@@ -21,10 +21,10 @@ path = "src/main.rs"
 
 
 [dependencies]
-num = "*"
-ordered-float = '*'
-itertools = "*"
-clap = { version = "*", features = ["yaml", "color", "suggestions"]}
-structopt = "*"
-strum = "*"
-strum_macros = "*"
+num = "0.4.0"
+ordered-float = '2.8.0'
+itertools = "0.10.1"
+clap = { version = "2.33.3", features = ["yaml", "color", "suggestions"]}
+structopt = "0.3.25"
+strum = "0.23.0"
+strum_macros = "0.23.0"
