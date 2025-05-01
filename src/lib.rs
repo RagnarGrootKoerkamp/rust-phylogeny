@@ -1,5 +1,4 @@
 #![warn(missing_docs)]
-#![feature(destructuring_assignment)]
 
 //! This library provides algorithms and helper functions for constructing and comparing phylogenies.
 //!
